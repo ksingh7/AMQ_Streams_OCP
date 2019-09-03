@@ -12,7 +12,6 @@ spec:
       tls:
         authentication: 
           type: tls
-      plain: {}
     authorization:
       type: simple    
     config:
