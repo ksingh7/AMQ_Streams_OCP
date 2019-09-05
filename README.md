@@ -130,5 +130,6 @@ oc logs -f hello-world-consumer-bbfd5d66b-nlz8x
 ```
 oc delete -f 04-hello-world-producer.yaml
 oc delete -f 05-hello-world-consumer.yaml
-
 ```
+
+# Kafka Performance Tests
