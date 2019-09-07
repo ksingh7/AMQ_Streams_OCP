@@ -39,6 +39,11 @@ NAME                                                  DESIRED   CURRENT   READY 
 replicaset.apps/strimzi-cluster-operator-76bcf9bc76   1         1         1       5m21s
 [karasing-redhat.com@clientvm 0 ~]$
 ```
+## Clone Repository
+
+```
+git clone https://github.com/ksingh7/AMQ_Streams_OCP.git
+```
 
 ## Deploying the Kafka Cluster to OpenShift
 
