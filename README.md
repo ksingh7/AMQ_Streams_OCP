@@ -42,7 +42,7 @@ replicaset.apps/strimzi-cluster-operator-76bcf9bc76   1         1         1     
 ## Clone Repository
 
 ```
-git clone https://github.com/ksingh7/AMQ_Streams_OCP.git
+git clone https://github.com/ksingh7/AMQ_Streams_OCP.git ; cd AMQ_Streams_OCP
 ```
 
 ## Deploying the Kafka Cluster to OpenShift
