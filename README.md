@@ -81,6 +81,18 @@ statefulset.apps/my-cluster-kafka       3/3     2m54s
 statefulset.apps/my-cluster-zookeeper   3/3     4m58s
 [karasing-redhat.com@clientvm 0 ~/AMQ_Streams_OCP master ⭑|✔]$
 ```
+## Setting up Prometheus and Grafana Monitoring
+
+```
+oc apply -f 06-prometheus.yaml
+oc apply -f 07-grafana.yaml
+oc get route
+```
+- Add Grafana datasource, edit ``08-grafana-datasource.sh`` with the correct grafana endpoint
+```
+sh 08-grafana-datasource.sh
+```
+
 ## Creating a Kafka Topic
 
 ```
